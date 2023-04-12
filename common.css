@@ -112,7 +112,7 @@ html[data-theme="dark"] {
 }
 
 /* You should always use .light-theme for light mode, the .white-theme is just for backword compatibility.
-  
+
   See: https://github.com/logseq/logseq/pull/4652. */
 .white-theme,
 .light-theme,

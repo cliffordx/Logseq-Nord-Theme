@@ -686,7 +686,7 @@ a.priority[href="#/page/C" i]:before {
 
 .cm-s-solarized.cm-s-dark .CodeMirror-matchingbracket,
 .cm-s-solarized .CodeMirror-matchingbracket {
-  text-decoration: underline !important;
+  text-decoration: line-through !important;
   color: hsl(218, 27%, 94%) !important;
 }
 
