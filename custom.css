@@ -51,7 +51,7 @@
   --ct-page-title-font-weight: 600;
   --ct-page-title-font-features: var(--ml-feature-settings);
   --ct-page-title-font-style: normal;
-  --ct-page-title-color: hsl(179, 25%, 65%);
+  --ct-page-title-color: hsl(316, 74%, 85%);
   --ct-page-title-line-height: 1.4;
   --ct-page-title-text-shadow: none;
   --ls-page-title-size: var(--ct-page-title-font-size);
@@ -83,7 +83,6 @@ h1.title {
   line-height: var(--ct-page-title-line-height);
   text-shadow: var(--ct-page-title-text-shadow, none);
 }
-
 body {
   font-family: var(--ls-font-family);
   font-size: var(--ct-text-size);
@@ -1394,7 +1393,7 @@ button:not(.active):hover {
   list-style: none;
   margin: 0;
   padding: 8px 10px;
-  position: absolute;
+  position: unset;
   z-index: 9;
 }
 
@@ -2262,4 +2261,8 @@ html[data-theme="dark"] .tl-type-tag[data-active="true"] {
 
 .panel-content {
   background: var(--ls-primary-background-color);
+}
+
+.text-xs {
+  color: #ffffff;
 }
