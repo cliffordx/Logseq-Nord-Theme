@@ -407,12 +407,6 @@ html[data-theme="dark"] {
   --logseq-og-left-sidebar-background: var(--ls-primary-background-color);
   --logseq-og-left-sidebar-bottom-gradient: none;
   --logseq-og-journal-page-rule: #3b4252;
-  /* Bujo Theme added 10 May 2023 */
-  --bujo-fill2: #52c41a;
-  --bujo-foreground2: #dbd3d3;
-  --ct-bold-color: #ee99a0c9;
-  /* --ct-header-height: 48px; */ /* removed the 3em space at the top 8 Apr 2023 */
-  /* --bujo-foreground2: #9d826c; */
 }
 
 /* dotted bg */
